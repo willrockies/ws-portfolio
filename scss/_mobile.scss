@@ -43,10 +43,21 @@
     transform: translate3d(100%, 0, 0);
 
     .portrait {
-      background: url('../img/portrait.jpg');
+      background: url("../img/portrait.jpg");
       width: 200px;
       height: 200px;
     }
+  }
+
+  .about-info {
+    grid-template-areas:
+      "bioimage"
+      "bio"
+      "job1"
+      "job2"
+      "job3";
+
+    grid-template-columns: 1fr;
   }
 }
 
